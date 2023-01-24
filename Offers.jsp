@@ -11,6 +11,7 @@
    <body>
       <h2>Offers</h2>
 	  <a href = "/login">login</a> <a style="float: right;" href = "/create">new offer</a>
+	  <a href = "/user/<c:out value="${name.id}" />">Your profile</a>
 	  <table>
 	  <tr><th>Name</th><th>Price</th><th>Seller</th><th>Publish Date</th><th>Details</th></tr>
 		<c:forEach items="${activeOffers}" var="offer">

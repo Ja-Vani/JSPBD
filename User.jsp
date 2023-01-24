@@ -10,6 +10,7 @@
 </head>
 
 <body>
+	<a href = "/">Go to main</a>
     <h2>${name}</h2>
     <table>
 	<tr><td>Buyer rep</td><td>${bayer}</td></tr>

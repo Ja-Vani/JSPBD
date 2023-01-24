@@ -9,6 +9,7 @@
 </head>
 
 <body>
+	<a href = "/">Go back</a>
     <font color="red">${errorMessage}</font>
     <form method="post">
         Name : <input type="text" name="name" />

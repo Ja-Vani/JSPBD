@@ -9,6 +9,7 @@
    </head>
    
    <body>
+	  <a href = "/">Go to main</a>
       <h2>Offers</h2>
 	  <table>
 	  <tr><th>Name</th><th>Price</th><th>Seller</th><th>Publish Date</th><th>Details</th></tr>

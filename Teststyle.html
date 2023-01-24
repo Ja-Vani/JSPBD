@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
-		
-   <head>
-		<meta charset="utf-8">
-		<link href="table.css" rel="stylesheet">
+
+<head>
+<title>Item</title>
+
 		<link href="main.css" rel="stylesheet">
-		<title>Offers</title>
-   </head>
-   
-   <body>
-      <h2>Offers</h2>
-	  <a href = "/login">login</a> <a style="float: right;" href = "/create">new offer</a>
-	  <table>
-	  <tr><th>Name</th><th>Price</th><th>Seller</th><th>Publish Date</th><th>Details</th></tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-        </tr>
-		</table>
-	  
-   </body>
+		<link href="/table.css" rel="stylesheet">
+</head>
+
+<body>
+	<a href = "/">Go back</a>
+    <h2>${owner}</h2>
+	<c:forEach items="${items}" var="item">
+	<table>
+	<tr><td>Name</td><td>${item.name}</td></tr>
+	<tr><td>CLASS</td><td>${item.class}</td></tr>
+	<tr><td>RARITY</td><td>${item.rarity}</td></tr>
+	<tr><td>OWNER</td><td><a href="/users/<c:out value="${owner}" />">${owner}</a></td></tr>
+	<tr><td>DESCRIPTONS</td><td>${item.description}</td></tr>
+	</table>
+	</c:forEach>
+	<form method="post">
+		<input type="Buy" />
+	</form>
+</body>
+
 </html>

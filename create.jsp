@@ -9,6 +9,7 @@
 </head>
 
 <body>
+	<a href = "/">Go to main</a>
     <h2>Create Offer</h2>
     <form method="post">
 		<select width=300 style="width: 350px"

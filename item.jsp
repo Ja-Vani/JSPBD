@@ -10,6 +10,7 @@
 </head>
 
 <body>
+	<a href = "/">Go back</a>
     <h2>${owner}</h2>
 	<c:forEach items="${items}" var="item">
 	<table>
