@@ -5,6 +5,8 @@
 
 <head>
 <title>Item</title>
+<link href="/table.css" rel="stylesheet">
+		<link href="main.css" rel="stylesheet">
 </head>
 
 <body>

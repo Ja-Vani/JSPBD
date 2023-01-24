@@ -4,6 +4,8 @@
 <html>
    <head>
       <title>Deals</title>
+	  <link href="/table.css" rel="stylesheet">
+		<link href="main.css" rel="stylesheet">
    </head>
    
    <body>

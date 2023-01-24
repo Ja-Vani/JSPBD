@@ -5,6 +5,7 @@
 
 <head>
 <title>Create</title>
+		<link href="main.css" rel="stylesheet">
 </head>
 
 <body>

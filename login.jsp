@@ -5,6 +5,7 @@
 
 <head>
 <title>Login</title>
+		<link href="main.css" rel="stylesheet">
 </head>
 
 <body>
